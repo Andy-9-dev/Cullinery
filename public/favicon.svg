@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="100" fill="#ac2c00"/>
+  
+  <!-- Plate -->
+  <circle cx="100" cy="100" r="75" fill="#fff4f3" stroke="#ffd2d0" stroke-width="3"/>
+  
+  <!-- Fork left side -->
+  <g transform="translate(60, 100)">
+    <!-- Handle -->
+    <rect x="-8" y="0" width="16" height="45" fill="#834c4b" rx="8"/>
+    <!-- Prongs -->
+    <rect x="-20" y="45" width="8" height="35" fill="#834c4b" rx="4"/>
+    <rect x="-6" y="45" width="8" height="35" fill="#834c4b" rx="4"/>
+    <rect x="8" y="45" width="8" height="35" fill="#834c4b" rx="4"/>
+  </g>
+  
+  <!-- Spoon right side -->
+  <g transform="translate(140, 100)">
+    <!-- Handle -->
+    <rect x="-8" y="0" width="16" height="45" fill="#834c4b" rx="8"/>
+    <!-- Bowl -->
+    <ellipse cx="0" cy="55" rx="18" ry="22" fill="#834c4b"/>
+  </g>
+  
+  <!-- Decorative food element - small dots representing spices/garnish -->
+  <circle cx="100" cy="85" r="3" fill="#ff7852" opacity="0.8"/>
+  <circle cx="110" cy="90" r="2.5" fill="#ff7852" opacity="0.7"/>
+  <circle cx="90" cy="95" r="2" fill="#ff7852" opacity="0.6"/>
+  <circle cx="105" cy="105" r="2.5" fill="#ff7852" opacity="0.7"/>
+  <circle cx="95" cy="110" r="2" fill="#ff7852" opacity="0.6"/>
+</svg>
