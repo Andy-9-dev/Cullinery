@@ -1,6 +1,8 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "npm install && npm run build",
   "outputDirectory": "dist",
-  "framework": "vite"
-  // Vercel build configuration for Vite
+  "framework": "vite",
+  "env": {
+    "NODE_ENV": "production"
+  }
 }
